@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2586-longest-square-streak-in-an-array](https://github.com/BOSON-18/leetcode/tree/master/2586-longest-square-streak-in-an-array) |
+| [2794-maximum-number-of-moves-in-a-grid](https://github.com/BOSON-18/leetcode/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 ## Hash Table
 |  |
 | ------- |
@@ -19,8 +20,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2586-longest-square-streak-in-an-array](https://github.com/BOSON-18/leetcode/tree/master/2586-longest-square-streak-in-an-array) |
+| [2794-maximum-number-of-moves-in-a-grid](https://github.com/BOSON-18/leetcode/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 ## Sorting
 |  |
 | ------- |
 | [2586-longest-square-streak-in-an-array](https://github.com/BOSON-18/leetcode/tree/master/2586-longest-square-streak-in-an-array) |
+## Matrix
+|  |
+| ------- |
+| [2794-maximum-number-of-moves-in-a-grid](https://github.com/BOSON-18/leetcode/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 <!---LeetCode Topics End-->
