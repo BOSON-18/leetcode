@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0610-triangle-judgement](https://github.com/BOSON-18/leetcode/tree/master/0610-triangle-judgement) |
 | [0619-biggest-single-number](https://github.com/BOSON-18/leetcode/tree/master/0619-biggest-single-number) |
 | [0620-not-boring-movies](https://github.com/BOSON-18/leetcode/tree/master/0620-not-boring-movies) |
+| [0626-exchange-seats](https://github.com/BOSON-18/leetcode/tree/master/0626-exchange-seats) |
 | [1153-product-sales-analysis-i](https://github.com/BOSON-18/leetcode/tree/master/1153-product-sales-analysis-i) |
 | [1161-project-employees-i](https://github.com/BOSON-18/leetcode/tree/master/1161-project-employees-i) |
 | [1182-game-play-analysis-iv](https://github.com/BOSON-18/leetcode/tree/master/1182-game-play-analysis-iv) |
