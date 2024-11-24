@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0115-distinct-subsequences](https://github.com/BOSON-18/leetcode/tree/master/0115-distinct-subsequences) |
 | [0198-house-robber](https://github.com/BOSON-18/leetcode/tree/master/0198-house-robber) |
 | [0518-coin-change-ii](https://github.com/BOSON-18/leetcode/tree/master/0518-coin-change-ii) |
 | [0967-minimum-falling-path-sum](https://github.com/BOSON-18/leetcode/tree/master/0967-minimum-falling-path-sum) |
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0115-distinct-subsequences](https://github.com/BOSON-18/leetcode/tree/master/0115-distinct-subsequences) |
 | [1250-longest-common-subsequence](https://github.com/BOSON-18/leetcode/tree/master/1250-longest-common-subsequence) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/BOSON-18/leetcode/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [2580-circular-sentence](https://github.com/BOSON-18/leetcode/tree/master/2580-circular-sentence) |
