@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/BOSON-18/leetcode/tree/master/0198-house-robber) |
 | [0518-coin-change-ii](https://github.com/BOSON-18/leetcode/tree/master/0518-coin-change-ii) |
 | [0967-minimum-falling-path-sum](https://github.com/BOSON-18/leetcode/tree/master/0967-minimum-falling-path-sum) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/BOSON-18/leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/BOSON-18/leetcode/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/BOSON-18/leetcode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2554-minimum-total-distance-traveled](https://github.com/BOSON-18/leetcode/tree/master/2554-minimum-total-distance-traveled) |
@@ -20,12 +21,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [1468-check-if-n-and-its-double-exist](https://github.com/BOSON-18/leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/BOSON-18/leetcode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2586-longest-square-streak-in-an-array](https://github.com/BOSON-18/leetcode/tree/master/2586-longest-square-streak-in-an-array) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/BOSON-18/leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Binary Search
 |  |
 | ------- |
+| [1468-check-if-n-and-its-double-exist](https://github.com/BOSON-18/leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/BOSON-18/leetcode/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2586-longest-square-streak-in-an-array](https://github.com/BOSON-18/leetcode/tree/master/2586-longest-square-streak-in-an-array) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/BOSON-18/leetcode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
@@ -46,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [1468-check-if-n-and-its-double-exist](https://github.com/BOSON-18/leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [2554-minimum-total-distance-traveled](https://github.com/BOSON-18/leetcode/tree/master/2554-minimum-total-distance-traveled) |
 | [2586-longest-square-streak-in-an-array](https://github.com/BOSON-18/leetcode/tree/master/2586-longest-square-streak-in-an-array) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/BOSON-18/leetcode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
@@ -122,4 +126,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/BOSON-18/leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
+## Two Pointers
+|  |
+| ------- |
+| [1468-check-if-n-and-its-double-exist](https://github.com/BOSON-18/leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 <!---LeetCode Topics End-->
