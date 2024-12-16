@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/BOSON-18/leetcode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/BOSON-18/leetcode/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/BOSON-18/leetcode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/BOSON-18/leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -129,13 +130,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1917-maximum-average-pass-ratio](https://github.com/BOSON-18/leetcode/tree/master/1917-maximum-average-pass-ratio) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/BOSON-18/leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/BOSON-18/leetcode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/BOSON-18/leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Simulation
 |  |
 | ------- |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/BOSON-18/leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/BOSON-18/leetcode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/BOSON-18/leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Two Pointers
 |  |
 | ------- |
 | [1468-check-if-n-and-its-double-exist](https://github.com/BOSON-18/leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
+## Math
+|  |
+| ------- |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/BOSON-18/leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 <!---LeetCode Topics End-->
