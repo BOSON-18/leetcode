@@ -170,14 +170,24 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/BOSON-18/leetcode/tree/master/0547-number-of-provinces) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/BOSON-18/leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/BOSON-18/leetcode/tree/master/0547-number-of-provinces) |
 | [1036-rotting-oranges](https://github.com/BOSON-18/leetcode/tree/master/1036-rotting-oranges) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/BOSON-18/leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/BOSON-18/leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
+## Union Find
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/BOSON-18/leetcode/tree/master/0547-number-of-provinces) |
+## Graph
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/BOSON-18/leetcode/tree/master/0547-number-of-provinces) |
 <!---LeetCode Topics End-->
