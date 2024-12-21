@@ -1,40 +1,35 @@
-#include <bits/stdc++.h>
-using namespace std;
-
 class Solution {
 public:
-    void bfs(int city, vector<int>& vis, vector<vector<int>>& isConnected, int n) {
-        queue<int> q;
-        q.push(city);
-        vis[city] = 1; // Mark the starting city as visited
 
-        while (!q.empty()) {
-            int curr = q.front();
-            q.pop();
+void dfs(int node,vector<int> adj[],vector<int>& vis){
+    vis[node]=1;
+    for(auto it:adj[node]){
+        if(!vis[it]){
+            dfs(it,adj,vis);
+        }
+    }
+}
+    int findCircleNum(vector<vector<int>>& isConnected) {
+        int n=isConnected.size();
+           vector<int> adj[n];
+        vector<int> vis(n,0);
 
-            // Check all cities connected to the current city
-            for (int next = 0; next < n; next++) {
-                if (isConnected[curr][next] == 1 && vis[next] == 0) {
-                    q.push(next);
-                    vis[next] = 1; // Mark as visited
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                if(isConnected[i][j]==1 && i!=j){
+                    adj[i].push_back(j);
+                    adj[j].push_back(i);
                 }
             }
         }
-    }
 
-    int findCircleNum(vector<vector<int>>& isConnected) {
-        int n = isConnected.size(); // Number of cities
-        vector<int> vis(n, 0);      // Visited array for cities
-        int provinces = 0;          // Count of provinces
-
-        for (int i = 0; i < n; i++) {
-            if (vis[i] == 0) { // If the city is not visited
-                provinces++;
-                bfs(i, vis, isConnected, n);
+        int count=0;
+        for(int i=0;i<vis.size();i++){
+            if(vis[i]==0){
+                dfs(i,adj,vis);
+                count++;
             }
         }
-
-        return provinces;
+        return count;
     }
 };
-
