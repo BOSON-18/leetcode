@@ -176,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0547-number-of-provinces](https://github.com/BOSON-18/leetcode/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/BOSON-18/leetcode/tree/master/0733-flood-fill) |
+| [0801-is-graph-bipartite](https://github.com/BOSON-18/leetcode/tree/master/0801-is-graph-bipartite) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/BOSON-18/leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [3058-maximum-number-of-k-divisible-components](https://github.com/BOSON-18/leetcode/tree/master/3058-maximum-number-of-k-divisible-components) |
 ## Breadth-First Search
@@ -183,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0547-number-of-provinces](https://github.com/BOSON-18/leetcode/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/BOSON-18/leetcode/tree/master/0733-flood-fill) |
+| [0801-is-graph-bipartite](https://github.com/BOSON-18/leetcode/tree/master/0801-is-graph-bipartite) |
 | [1036-rotting-oranges](https://github.com/BOSON-18/leetcode/tree/master/1036-rotting-oranges) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/BOSON-18/leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/BOSON-18/leetcode/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
@@ -195,8 +197,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/BOSON-18/leetcode/tree/master/0547-number-of-provinces) |
+| [0801-is-graph-bipartite](https://github.com/BOSON-18/leetcode/tree/master/0801-is-graph-bipartite) |
 ## Graph
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/BOSON-18/leetcode/tree/master/0547-number-of-provinces) |
+| [0801-is-graph-bipartite](https://github.com/BOSON-18/leetcode/tree/master/0801-is-graph-bipartite) |
 <!---LeetCode Topics End-->
