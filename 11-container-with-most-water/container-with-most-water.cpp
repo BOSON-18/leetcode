@@ -8,9 +8,10 @@ public:
         int maxi = 0;
         while (l < h) {
             maxi = max(maxi, ((h - l) * min(height[h], height[l])));
-
+        // bada container for maximisign storage thats why going to right
             if (height[l] < height[h])
                 l++;
+                // Going left
             else
                 h--;
         }
