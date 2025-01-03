@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/BOSON-18/leetcode/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/BOSON-18/leetcode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/BOSON-18/leetcode/tree/master/0073-set-matrix-zeroes) |
+| [0079-word-search](https://github.com/BOSON-18/leetcode/tree/master/0079-word-search) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/BOSON-18/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/BOSON-18/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/BOSON-18/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -91,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/BOSON-18/leetcode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/BOSON-18/leetcode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/BOSON-18/leetcode/tree/master/0073-set-matrix-zeroes) |
+| [0079-word-search](https://github.com/BOSON-18/leetcode/tree/master/0079-word-search) |
 | [0733-flood-fill](https://github.com/BOSON-18/leetcode/tree/master/0733-flood-fill) |
 | [0967-minimum-falling-path-sum](https://github.com/BOSON-18/leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/BOSON-18/leetcode/tree/master/1036-rotting-oranges) |
@@ -139,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0079-word-search](https://github.com/BOSON-18/leetcode/tree/master/0079-word-search) |
 | [0115-distinct-subsequences](https://github.com/BOSON-18/leetcode/tree/master/0115-distinct-subsequences) |
 | [1250-longest-common-subsequence](https://github.com/BOSON-18/leetcode/tree/master/1250-longest-common-subsequence) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/BOSON-18/leetcode/tree/master/1302-delete-characters-to-make-fancy-string) |
@@ -207,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/BOSON-18/leetcode/tree/master/0079-word-search) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/BOSON-18/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0547-number-of-provinces](https://github.com/BOSON-18/leetcode/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/BOSON-18/leetcode/tree/master/0733-flood-fill) |
@@ -258,4 +262,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/BOSON-18/leetcode/tree/master/0021-merge-two-sorted-lists) |
+## Backtracking
+|  |
+| ------- |
+| [0079-word-search](https://github.com/BOSON-18/leetcode/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
