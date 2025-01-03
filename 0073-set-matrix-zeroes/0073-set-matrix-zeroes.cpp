@@ -1,42 +1,35 @@
 class Solution {
 public:
-    void setZeroes(vector<vector<int>>& matrix) {
-        // Assume if 0 ise present at mat[1][1] then need to make row 1 and col
-        // 1 fully 0
-
-        // Brute Force
-        // Make a list to store the index of the 0's in the matrix
-        // After it based on the pair of index make changes in original array
-
-        vector<pair<int, int>> zeroes;
-        int n = matrix.size(), m = matrix[0].size();
-
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                if (matrix[i][j] == 0)
-                    zeroes.push_back({i, j});
-            }
-        }
-        unordered_set<int> Rst;
-        unordered_set<int> Cst;
-
-        for (auto it : zeroes) {
-            int row = it.first;
-            int col = it.second;
-
-            if (Rst.find(row) == Rst.end()) {
-                Rst.insert(row);
-                for (int i = 0; i < m; i++) {
-                    matrix[row][i] = 0;
-                }
-            }
-
-            if (Cst.find(col) == Cst.end()) {
-                Cst.insert(col);
-                for (int i = 0; i < n; i++) {
-                    matrix[i][col] = 0;
-                }
-            }
+void markRow(vector<vector<int>> & matrix,int row){
+    for(int i=0;i<matrix[0].size();i++){
+        if(matrix[row][i]!=0){
+            matrix[row][i]=-6969;
         }
     }
+}
+
+void markCol(vector<vector<int>> & matrix,int col){
+    for(int i=0;i<matrix.size();i++){
+        if(matrix[i][col]!=0){
+            matrix[i][col]=-6969;
+        }
+    }
+}
+   void setZeroes(vector<vector<int>>& matrix) {
+    int col0 = 1, rows = matrix.size(), cols = matrix[0].size();
+
+    for (int i = 0; i < rows; i++) {
+        if (matrix[i][0] == 0) col0 = 0;
+        for (int j = 1; j < cols; j++)
+            if (matrix[i][j] == 0)
+                matrix[i][0] = matrix[0][j] = 0;
+    }
+
+    for (int i = rows - 1; i >= 0; i--) {
+        for (int j = cols - 1; j >= 1; j--)
+            if (matrix[i][0] == 0 || matrix[0][j] == 0)
+                matrix[i][j] = 0;
+        if (col0 == 0) matrix[i][0] = 0;
+    }
+}
 };
