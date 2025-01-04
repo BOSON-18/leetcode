@@ -15,7 +15,7 @@ int memo(vector<int>& arr,int index,int previndex,vector<vector<int>>& dp){
 
     return dp[index][previndex+1]=max(take,notTake);
 }
-    int lengthOfLIS(vector<int>& nums) {
+    int lengthOfLIS(vector<int>& arr) {
         //Lets see if greedy works ???
 
         // Brute Force
@@ -27,8 +27,42 @@ int memo(vector<int>& arr,int index,int previndex,vector<vector<int>>& dp){
         // Recursion it is
         // O(2N)
         // vector<int> dp(nums.size(),-1);
-        vector<vector<int>> dp(nums.size(),vector<int>(nums.size()+1,-1));
-        return memo(nums,nums.size()-1,-1,dp);
-        
+        // vector<vector<int>> dp(nums.size(),vector<int>(nums.size()+1,-1));
+        // vector<vector<int>> dp(nums.size(),vector<int>(nums.size()+1,0));
+        // return memo(nums,nums.size()-1,-1,dp);
+
+        // base case??
+        // prevIndex==-1 which means only one way
+          int n = arr.size();
+    
+    // dp[i][j] will store the length of the longest increasing subsequence
+    // considering elements from 0 to i, and having the previous element at index j.
+    //   int n = arr.size();
+
+    // dp[i][j] will store the length of the longest increasing subsequence
+    // considering elements from 0 to i, and having the previous element at index j.
+    vector<vector<int>> dp(n+1,vector<int>(n+1,0));
+    
+    for(int ind = n-1; ind>=0; ind --){
+        for (int prev_index = ind-1; prev_index >=-1; prev_index --){
+            
+            int notTake = 0 + dp[ind+1][prev_index +1];
+    
+            int take = 0;
+    
+            if(prev_index == -1 || arr[ind] > arr[prev_index]){
+                
+                take = 1 + dp[ind+1][ind+1];
+            }
+    
+            dp[ind][prev_index+1] = max(notTake,take);
+            
+        }
+    }
+    
+    return dp[0][0];
+  
+
+
     }
 };
