@@ -43,26 +43,26 @@ public:
         // dp[i][j] will store the length of the longest increasing subsequence
         // considering elements from 0 to i, and having the previous element at
         // index j.
-        vector<vector<int>> dp(n + 1, vector<int>(n + 1, 0));
+        // vector<vector<int>> dp(n + 1, vector<int>(n + 1, 0));
 
-        for(int ind = n-1; ind>=0; ind --){
-            for (int prev_index = ind-1; prev_index >=-1; prev_index --){
+        // for(int ind = n-1; ind>=0; ind --){
+        //     for (int prev_index = ind-1; prev_index >=-1; prev_index --){
 
-                int notTake = 0 + dp[ind+1][prev_index +1];
+        //         int notTake = 0 + dp[ind+1][prev_index +1];
 
-                int take = 0;
+        //         int take = 0;
 
-                if(prev_index == -1 || arr[ind] > arr[prev_index]){
+        //         if(prev_index == -1 || arr[ind] > arr[prev_index]){
 
-                    take = 1 + dp[ind+1][ind+1];
-                }
+        //             take = 1 + dp[ind+1][ind+1];
+        //         }
 
-                dp[ind][prev_index+1] = max(notTake,take);
+        //         dp[ind][prev_index+1] = max(notTake,take);
 
-            }
-        }
+        //     }
+        // }
 
-        return dp[0][0];
+        // return dp[0][0];
 
       // Iterate over each element (index)
     // for (int index = 0; index < n; index++) {
@@ -91,5 +91,16 @@ public:
     // }
 
     // return maxLength;
+
+vector<int> sorted;
+
+for(int i=0;i<n;i++){
+    auto it = lower_bound(begin(sorted),end(sorted),arr[i]);
+
+    if(it==end(sorted)) sorted.push_back(arr[i]);
+    else *it=arr[i];
+}
+
+    return sorted.size();
     }
 };
