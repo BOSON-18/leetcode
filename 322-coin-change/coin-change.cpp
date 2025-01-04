@@ -23,6 +23,37 @@ public:
 
         return memo[index][amount] = min(take, notTake);
     }
+      int tab(vector<int>& coins, int amount) {
+        int n = coins.size();
+        
+        // Create a DP table, initialize to a large value (1e9 for infinity)
+        vector<vector<int>> dp(n + 1, vector<int>(amount + 1, 1e9));
+        
+        // Base case: If amount is 0, we need 0 coins
+        for (int i = 0; i <= n; i++) {
+            dp[i][0] = 0;
+        }
+        
+        // Fill the table
+        for (int index = n - 1; index >= 0; index--) {
+            for (int amt = 1; amt <= amount; amt++) {
+                // Not take the current coin
+                int notTake = dp[index + 1][amt];
+                
+                // Take the current coin (if possible)
+                int take = 1e9;
+                if (amt >= coins[index]) {
+                    take = 1 + dp[index][amt - coins[index]];
+                }
+                
+                // Take the minimum of both
+                dp[index][amt] = min(take, notTake);
+            }
+        }
+        
+        // The answer is in dp[0][amount]
+        return dp[0][amount] >= 1e9 ? -1 : dp[0][amount];
+    }
     int coinChange(vector<int>& coins, int amount) {
         // coins hai 1,2,5 infinite supply
         // inke combination se amount bnao
@@ -44,10 +75,11 @@ public:
 
         // Call a recursive function
 
-        vector<vector<int>> memo(coins.size(), vector<int>(amount + 1, -1));
+        // vector<vector<int>> memo(coins.size(), vector<int>(amount + 1, -1));
 
-        int ans = f(coins, amount, 0, memo);
+        // int ans = f(coins, amount, 0, memo);
 
-        return ans == 1e9 ? -1 : ans;
+        // return ans == 1e9 ? -1 : ans;
+        return tab(coins,amount);
     }
 };
