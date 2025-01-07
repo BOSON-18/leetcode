@@ -19,23 +19,36 @@ public:
         }
         return dp[index] = false;
     }
+
+    bool optimise(vector<int>& nums) {
+        int maxIndex = 0;
+
+        for (int i = 0; i < nums.size(); i++) {
+            if (maxIndex < i)
+                return false;
+            maxIndex = max(maxIndex,i+ nums[i]);
+        }
+        return true;
+    }
     bool canJump(vector<int>& nums) {
+
+        return optimise(nums);
+
         n = nums.size();
         // vector<int> dp(n, -1);
         vector<bool> dp(n, 0);
-        dp[n-1]=1;
+        dp[n - 1] = 1;
 
-        for(int i=n-2;i>=0;i--){
-           for(int j=0;j<=nums[i];j++){
-             if (dp[i + j]) {
+        for (int i = n - 2; i >= 0; i--) {
+            for (int j = 0; j <= nums[i]; j++) {
+                if (dp[i + j]) {
                     dp[i] = true;
-                    break; 
+                    break;
                 }
-           }
+            }
         }
 
-
-    return dp[0];
+        return dp[0];
         // return memo(nums, 0, dp);
     }
 };
