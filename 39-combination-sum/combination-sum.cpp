@@ -1,27 +1,34 @@
 class Solution {
 public:
     vector<vector<int>> ans;
-    void memo(vector<int>& candidates, int target, int index, vector<int>& temp) {
-        if (target == 0) { // If we hit the target
-            ans.push_back(temp); // Add the valid combination
+int n;
+    void memo(int index, int target, vector<int>& temp,
+            vector<int>& arr) {
+        if (target == 0) {       
+            ans.push_back(temp); 
             return;
         }
-        if (target < 0 || index >= candidates.size()) { // If target is negative or index is out of bounds
+        if (target < 0 ||
+            index >= n) { 
             return;
         }
-        
-        // Include the current candidate
-        temp.push_back(candidates[index]);
-        memo(candidates, target - candidates[index], index, temp); // Stay on the same index to allow repeats
-        temp.pop_back();
-        
-        // Exclude the current candidate and move to the next
-        memo(candidates, target, index + 1, temp);
+
+        //take or not take
+     
+            temp.push_back(arr[index]);
+            memo(index,target-arr[index],temp,arr);
+            temp.pop_back();
+            memo(index+1,target,temp,arr);
+
+
+       
     }
-    
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+
+        n = candidates.size();
         vector<int> temp;
-        memo(candidates, target, 0, temp); // Start from the 0th index
+
+        memo(0, target, temp, candidates);
         return ans;
     }
 };
