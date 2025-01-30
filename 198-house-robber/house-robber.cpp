@@ -13,8 +13,22 @@ int memo(vector<int>& nums,int index){
     int rob(vector<int>& nums) {
 
        
-        memset(dp,-1,sizeof(dp));
-        return memo(nums,nums.size()-1);
+        // memset(dp,-1,sizeof(dp));
+        memset(dp,0,sizeof(dp));
+
+        //bottom up tabulation
+        dp[0]=nums[0];
+
+        for(int i=1;i<nums.size();i++){
+            int take=nums[i];
+            if(i>1) take+=dp[i-2];
+
+            int notPick=dp[i-1];
+
+            dp[i] =max(take,notPick);
+        }
+        // return memo(nums,nums.size()-1);
+        return dp[nums.size()-1];
         
     }
 };
