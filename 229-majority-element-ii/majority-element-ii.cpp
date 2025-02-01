@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> majorityElement(vector<int>& nums) {
-           int n = nums.size();
+        int n=nums.size();
         int cnt1 = 0, maj1 = INT_MIN, cnt2 = 0, maj2 = INT_MIN;
 
         for (int i = 0; i < n; i++) {
@@ -22,15 +22,15 @@ public:
         }
 
         vector<int> ans;
-        cnt1 = 0, cnt2 = 0;
+        cnt1=0,cnt2=0;
 
-        for (int it : nums) {
-            if (it == maj1) cnt1++;
-            if (it == maj2) cnt2++;
+        for(int it:nums){
+            if(it==maj1) cnt1++;
+            if(it==maj2) cnt2++;
         }
 
-        if (cnt1 > n / 3) ans.push_back(maj1);
-        if (cnt2 > n / 3) ans.push_back(maj2);
+        if(cnt1>n/3) ans.push_back(maj1);
+        if(cnt2>n/3) ans.push_back(maj2);
 
         return ans;
     }
