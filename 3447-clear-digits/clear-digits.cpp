@@ -13,7 +13,7 @@ public:
             }
             else if(isdigit(s[i])){
                 ans.pop_back();
-                if(i<s.size()-1)
+                // if(i<s.size()-1)
                 leftIndex=max(leftIndex-1,i+1);
 
             }
