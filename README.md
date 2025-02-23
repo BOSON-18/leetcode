@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/BOSON-18/leetcode/tree/master/0198-house-robber) |
 | [0217-contains-duplicate](https://github.com/BOSON-18/leetcode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/BOSON-18/leetcode/tree/master/0238-product-of-array-except-self) |
+| [0239-sliding-window-maximum](https://github.com/BOSON-18/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0322-coin-change](https://github.com/BOSON-18/leetcode/tree/master/0322-coin-change) |
 | [0518-coin-change-ii](https://github.com/BOSON-18/leetcode/tree/master/0518-coin-change-ii) |
 | [0733-flood-fill](https://github.com/BOSON-18/leetcode/tree/master/0733-flood-fill) |
@@ -171,11 +172,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/BOSON-18/leetcode/tree/master/0239-sliding-window-maximum) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/BOSON-18/leetcode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/BOSON-18/leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/BOSON-18/leetcode/tree/master/0239-sliding-window-maximum) |
 | [1917-maximum-average-pass-ratio](https://github.com/BOSON-18/leetcode/tree/master/1917-maximum-average-pass-ratio) |
 | [2300-construct-string-with-repeat-limit](https://github.com/BOSON-18/leetcode/tree/master/2300-construct-string-with-repeat-limit) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/BOSON-18/leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
@@ -278,4 +281,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0079-word-search](https://github.com/BOSON-18/leetcode/tree/master/0079-word-search) |
+## Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/BOSON-18/leetcode/tree/master/0239-sliding-window-maximum) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/BOSON-18/leetcode/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
