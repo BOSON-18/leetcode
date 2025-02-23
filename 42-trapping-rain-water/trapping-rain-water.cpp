@@ -17,7 +17,7 @@ public:
         for (int i = 1; i < n - 1; i++) {
             int mini = min(left[i], right[i]);
 
-            if (mini < height[i])
+            if (mini <= height[i])
                 continue;
 
             ans += (mini - height[i]);
