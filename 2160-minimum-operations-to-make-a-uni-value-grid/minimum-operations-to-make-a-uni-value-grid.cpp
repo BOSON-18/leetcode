@@ -15,8 +15,9 @@ public:
 
         // Partially sorts the array so that the median element is placed at the
         // middle index
-        nth_element(numsArray.begin(), numsArray.begin() + length / 2,
-                    numsArray.end());
+        // nth_element(numsArray.begin(), numsArray.begin() + length / 2,
+        //             numsArray.end());
+        sort(begin(numsArray),end(numsArray));
 
         // Store the median element as the final common value to make all
         // elements equal to
