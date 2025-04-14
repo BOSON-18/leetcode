@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1025-minimum-cost-for-tickets](https://github.com/BOSON-18/leetcode/tree/master/1025-minimum-cost-for-tickets) |
 | [1036-rotting-oranges](https://github.com/BOSON-18/leetcode/tree/master/1036-rotting-oranges) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/BOSON-18/leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1656-count-good-triplets](https://github.com/BOSON-18/leetcode/tree/master/1656-count-good-triplets) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/BOSON-18/leetcode/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/BOSON-18/leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1917-maximum-average-pass-ratio](https://github.com/BOSON-18/leetcode/tree/master/1917-maximum-average-pass-ratio) |
@@ -300,4 +301,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/BOSON-18/leetcode/tree/master/0239-sliding-window-maximum) |
+## Enumeration
+|  |
+| ------- |
+| [1656-count-good-triplets](https://github.com/BOSON-18/leetcode/tree/master/1656-count-good-triplets) |
 <!---LeetCode Topics End-->
