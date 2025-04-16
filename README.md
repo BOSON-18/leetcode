@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2554-minimum-total-distance-traveled](https://github.com/BOSON-18/leetcode/tree/master/2554-minimum-total-distance-traveled) |
 | [2586-longest-square-streak-in-an-array](https://github.com/BOSON-18/leetcode/tree/master/2586-longest-square-streak-in-an-array) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/BOSON-18/leetcode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
+| [2626-count-the-number-of-good-subarrays](https://github.com/BOSON-18/leetcode/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/BOSON-18/leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/BOSON-18/leetcode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/BOSON-18/leetcode/tree/master/2794-maximum-number-of-moves-in-a-grid) |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2300-construct-string-with-repeat-limit](https://github.com/BOSON-18/leetcode/tree/master/2300-construct-string-with-repeat-limit) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/BOSON-18/leetcode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2586-longest-square-streak-in-an-array](https://github.com/BOSON-18/leetcode/tree/master/2586-longest-square-streak-in-an-array) |
+| [2626-count-the-number-of-good-subarrays](https://github.com/BOSON-18/leetcode/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/BOSON-18/leetcode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/BOSON-18/leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Binary Search
@@ -183,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/BOSON-18/leetcode/tree/master/0239-sliding-window-maximum) |
+| [2626-count-the-number-of-good-subarrays](https://github.com/BOSON-18/leetcode/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/BOSON-18/leetcode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/BOSON-18/leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Heap (Priority Queue)
