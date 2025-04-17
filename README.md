@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/BOSON-18/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/BOSON-18/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0198-house-robber](https://github.com/BOSON-18/leetcode/tree/master/0198-house-robber) |
+| [0279-perfect-squares](https://github.com/BOSON-18/leetcode/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/BOSON-18/leetcode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/BOSON-18/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0518-coin-change-ii](https://github.com/BOSON-18/leetcode/tree/master/0518-coin-change-ii) |
@@ -219,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/BOSON-18/leetcode/tree/master/0048-rotate-image) |
+| [0279-perfect-squares](https://github.com/BOSON-18/leetcode/tree/master/0279-perfect-squares) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/BOSON-18/leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Stack
 |  |
@@ -248,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0279-perfect-squares](https://github.com/BOSON-18/leetcode/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/BOSON-18/leetcode/tree/master/0322-coin-change) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/BOSON-18/leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0547-number-of-provinces](https://github.com/BOSON-18/leetcode/tree/master/0547-number-of-provinces) |
