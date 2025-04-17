@@ -22,13 +22,35 @@ int f(vector<int>& nums,int index,int target,vector<vector<int>>& dp){
         }
 
         vector<int> nums(sq);
-        for(int i=0;i<sq;i++){
-            nums[i]=i+1;
-        }
-
+        // for(int i=0;i<sq;i++){
+        //     nums[i]=i+1;
+        // }
+        for(int i=0;i<sq;i++) nums[i]=(i+1)*(i+1);
        vector<vector<int>> dp(sq,vector<int>(n+1,INT_MAX));
 
-        return f(nums,sq-1,n,dp);
+       for(int i=0; i<sq;i++){
+        dp[i][0]=0;
+       }
+
+       for(int t=1;t<=n;t++){
+        if(t%nums[0] == 0){
+            dp[0][t]=t/nums[0];
+        }
+       }
+
+       for(int i=1;i<sq;i++){
+        for(int t=1;t<=n;t++){
+            int notTake=dp[i-1][t];
+            int take=INT_MAX;
+            if(nums[i] <= t && dp[i][t - nums[i]] != INT_MAX) 
+                take=1+dp[i][t-nums[i]];
+            dp[i][t]=min(take,notTake);    
+        }
+       }
+
+       return dp[sq-1][n];
+
+        // return f(nums,sq-1,n,dp);
         
     }
 };
