@@ -44,15 +44,7 @@ public:
             else ans.push_back('R');
                  
         }
-    // cout<<"Left: ";
-    //     for(int i:left){
-    //         cout<<i<<" ";
-    //     }
-    //     cout<<endl;
-    //     cout<<"Right: ";
-    //     for(int i:right){
-    //         cout<<i<<" ";
-    //     }
+    
 
         return ans;
     }
