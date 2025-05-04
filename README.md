@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1025-minimum-cost-for-tickets](https://github.com/BOSON-18/leetcode/tree/master/1025-minimum-cost-for-tickets) |
 | [1036-rotting-oranges](https://github.com/BOSON-18/leetcode/tree/master/1036-rotting-oranges) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/BOSON-18/leetcode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
+| [1227-number-of-equivalent-domino-pairs](https://github.com/BOSON-18/leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/BOSON-18/leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1656-count-good-triplets](https://github.com/BOSON-18/leetcode/tree/master/1656-count-good-triplets) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/BOSON-18/leetcode/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/BOSON-18/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0141-linked-list-cycle](https://github.com/BOSON-18/leetcode/tree/master/0141-linked-list-cycle) |
 | [0217-contains-duplicate](https://github.com/BOSON-18/leetcode/tree/master/0217-contains-duplicate) |
+| [1227-number-of-equivalent-domino-pairs](https://github.com/BOSON-18/leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/BOSON-18/leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/BOSON-18/leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2300-construct-string-with-repeat-limit](https://github.com/BOSON-18/leetcode/tree/master/2300-construct-string-with-repeat-limit) |
@@ -192,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [1227-number-of-equivalent-domino-pairs](https://github.com/BOSON-18/leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [2300-construct-string-with-repeat-limit](https://github.com/BOSON-18/leetcode/tree/master/2300-construct-string-with-repeat-limit) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/BOSON-18/leetcode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/BOSON-18/leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
