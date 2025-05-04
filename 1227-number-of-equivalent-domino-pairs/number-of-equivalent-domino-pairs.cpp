@@ -13,7 +13,7 @@ public:
 
         for(auto& it:mpp){
             int freq=it.second;
-            count += (freq*(freq-1))/2;
+            count += (freq*(freq-1))/2; //nC2 = N!/2!*(N-2)!
         }
 
         return count;
