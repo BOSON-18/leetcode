@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/BOSON-18/leetcode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1917-maximum-average-pass-ratio](https://github.com/BOSON-18/leetcode/tree/master/1917-maximum-average-pass-ratio) |
 | [2048-build-array-from-permutation](https://github.com/BOSON-18/leetcode/tree/master/2048-build-array-from-permutation) |
+| [2144-maximum-difference-between-increasing-elements](https://github.com/BOSON-18/leetcode/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/BOSON-18/leetcode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2358-number-of-ways-to-split-array](https://github.com/BOSON-18/leetcode/tree/master/2358-number-of-ways-to-split-array) |
 | [2554-minimum-total-distance-traveled](https://github.com/BOSON-18/leetcode/tree/master/2554-minimum-total-distance-traveled) |
