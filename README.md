@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1917-maximum-average-pass-ratio](https://github.com/BOSON-18/leetcode/tree/master/1917-maximum-average-pass-ratio) |
 | [2048-build-array-from-permutation](https://github.com/BOSON-18/leetcode/tree/master/2048-build-array-from-permutation) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/BOSON-18/leetcode/tree/master/2144-maximum-difference-between-increasing-elements) |
+| [2320-find-all-k-distant-indices-in-an-array](https://github.com/BOSON-18/leetcode/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/BOSON-18/leetcode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2358-number-of-ways-to-split-array](https://github.com/BOSON-18/leetcode/tree/master/2358-number-of-ways-to-split-array) |
 | [2554-minimum-total-distance-traveled](https://github.com/BOSON-18/leetcode/tree/master/2554-minimum-total-distance-traveled) |
@@ -243,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/BOSON-18/leetcode/tree/master/0141-linked-list-cycle) |
 | [0868-push-dominoes](https://github.com/BOSON-18/leetcode/tree/master/0868-push-dominoes) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/BOSON-18/leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
+| [2320-find-all-k-distant-indices-in-an-array](https://github.com/BOSON-18/leetcode/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/BOSON-18/leetcode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/BOSON-18/leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Math
