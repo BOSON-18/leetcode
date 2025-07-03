@@ -202,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/BOSON-18/leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/BOSON-18/leetcode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
+| [3600-find-the-k-th-character-in-string-game-i](https://github.com/BOSON-18/leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Counting
 |  |
 | ------- |
@@ -236,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2692-take-gifts-from-the-richest-pile](https://github.com/BOSON-18/leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/BOSON-18/leetcode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/BOSON-18/leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3600-find-the-k-th-character-in-string-game-i](https://github.com/BOSON-18/leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Two Pointers
 |  |
 | ------- |
@@ -256,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0279-perfect-squares](https://github.com/BOSON-18/leetcode/tree/master/0279-perfect-squares) |
 | [1477-product-of-the-last-k-numbers](https://github.com/BOSON-18/leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/BOSON-18/leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3600-find-the-k-th-character-in-string-game-i](https://github.com/BOSON-18/leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Stack
 |  |
 | ------- |
@@ -334,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/BOSON-18/leetcode/tree/master/0021-merge-two-sorted-lists) |
+| [3600-find-the-k-th-character-in-string-game-i](https://github.com/BOSON-18/leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Backtracking
 |  |
 | ------- |
