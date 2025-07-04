@@ -205,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/BOSON-18/leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/BOSON-18/leetcode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/BOSON-18/leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
+| [3601-find-the-k-th-character-in-string-game-ii](https://github.com/BOSON-18/leetcode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 ## Counting
 |  |
 | ------- |
@@ -261,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1477-product-of-the-last-k-numbers](https://github.com/BOSON-18/leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/BOSON-18/leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/BOSON-18/leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
+| [3601-find-the-k-th-character-in-string-game-ii](https://github.com/BOSON-18/leetcode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 ## Stack
 |  |
 | ------- |
@@ -341,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/BOSON-18/leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/BOSON-18/leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
+| [3601-find-the-k-th-character-in-string-game-ii](https://github.com/BOSON-18/leetcode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 ## Backtracking
 |  |
 | ------- |
