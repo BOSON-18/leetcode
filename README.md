@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1025-minimum-cost-for-tickets](https://github.com/BOSON-18/leetcode/tree/master/1025-minimum-cost-for-tickets) |
 | [1036-rotting-oranges](https://github.com/BOSON-18/leetcode/tree/master/1036-rotting-oranges) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/BOSON-18/leetcode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
+| [1184-car-pooling](https://github.com/BOSON-18/leetcode/tree/master/1184-car-pooling) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/BOSON-18/leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/BOSON-18/leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1477-product-of-the-last-k-numbers](https://github.com/BOSON-18/leetcode/tree/master/1477-product-of-the-last-k-numbers) |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/BOSON-18/leetcode/tree/master/0015-3sum) |
 | [0217-contains-duplicate](https://github.com/BOSON-18/leetcode/tree/master/0217-contains-duplicate) |
 | [0780-max-chunks-to-make-sorted](https://github.com/BOSON-18/leetcode/tree/master/0780-max-chunks-to-make-sorted) |
+| [1184-car-pooling](https://github.com/BOSON-18/leetcode/tree/master/1184-car-pooling) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/BOSON-18/leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [2554-minimum-total-distance-traveled](https://github.com/BOSON-18/leetcode/tree/master/2554-minimum-total-distance-traveled) |
 | [2586-longest-square-streak-in-an-array](https://github.com/BOSON-18/leetcode/tree/master/2586-longest-square-streak-in-an-array) |
@@ -230,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/BOSON-18/leetcode/tree/master/0239-sliding-window-maximum) |
+| [1184-car-pooling](https://github.com/BOSON-18/leetcode/tree/master/1184-car-pooling) |
 | [1917-maximum-average-pass-ratio](https://github.com/BOSON-18/leetcode/tree/master/1917-maximum-average-pass-ratio) |
 | [2300-construct-string-with-repeat-limit](https://github.com/BOSON-18/leetcode/tree/master/2300-construct-string-with-repeat-limit) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/BOSON-18/leetcode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
@@ -241,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/BOSON-18/leetcode/tree/master/0054-spiral-matrix) |
+| [1184-car-pooling](https://github.com/BOSON-18/leetcode/tree/master/1184-car-pooling) |
 | [2048-build-array-from-permutation](https://github.com/BOSON-18/leetcode/tree/master/2048-build-array-from-permutation) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/BOSON-18/leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/BOSON-18/leetcode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
@@ -328,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/BOSON-18/leetcode/tree/master/0238-product-of-array-except-self) |
+| [1184-car-pooling](https://github.com/BOSON-18/leetcode/tree/master/1184-car-pooling) |
 | [1477-product-of-the-last-k-numbers](https://github.com/BOSON-18/leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/BOSON-18/leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2358-number-of-ways-to-split-array](https://github.com/BOSON-18/leetcode/tree/master/2358-number-of-ways-to-split-array) |
