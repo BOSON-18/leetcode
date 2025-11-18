@@ -1,18 +1,17 @@
 class Solution {
 public:
-// vector<int> dp;
+    // vector<int> dp;
 
-// int f(vector<int>& cost,int index){
+    // int f(vector<int>& cost,int index){
 
-// 	if(index == 0 || index==1) return cost[index];
+    // 	if(index == 0 || index==1) return cost[index];
 
-	
-// 	return cost[index]+ min(f(cost,index-1),f(cost,index-2)) ;
-// }
+    // 	return cost[index]+ min(f(cost,index-1),f(cost,index-2)) ;
+    // }
     // int minCostClimbingStairs(vector<int>& cost) {
     //     int n=cost.size();
     //     return min(f(cost,n-1),f(cost,n-2));
-        
+
     // }
 
     // int memo(vector<int>& cost,int index){
@@ -20,27 +19,40 @@ public:
     //     if(index<0) return 0;
     //     if(index == 0 || index ==1) return cost[index];
 
-    //     dp[index] = cost[index] + min (memo(cost,index-1),memo(cost,index-2));
-    //     return dp[index];
+    //     dp[index] = cost[index] + min
+    //     (memo(cost,index-1),memo(cost,index-2)); return dp[index];
     // }
     // int minCostClimbingStairs(vector<int>& cost) {
     //     int n=cost.size();
     //     dp.assign(n,0);
 
     //     return min(memo(cost,n-1),memo(cost,n-2));
-        
+
+    // }
+    // int minCostClimbingStairs(vector<int>& cost) {
+    //     int n=cost.size();
+    //     vector<int> dp(n,0);
+    //     dp[0] = cost[0];
+    //     dp[1] = cost[1];
+
+    //     for(int i=2;i<n;i++){
+    //         dp[i] = min(dp[i-1],dp[i-2])+cost[i];
+    //     }
+
+    //     return min(dp[n-1],dp[n-2]);
+
     // }
     int minCostClimbingStairs(vector<int>& cost) {
-        int n=cost.size();
-        vector<int> dp(n,0);
-        dp[0] = cost[0];
-        dp[1] = cost[1];
+        int n = cost.size();
 
-        for(int i=2;i<n;i++){
-            dp[i] = min(dp[i-1],dp[i-2])+cost[i];
+        int prev2 = cost[0], prev1 = cost[1];
+        int curr = 0;
+        for (int i = 2; i < n; i++) {
+            curr = cost[i] + min(prev1, prev2);
+            prev2=prev1;
+            prev1=curr;
         }
 
-        return min(dp[n-1],dp[n-2]);
-        
+        return min(prev1, prev2);
     }
 };
