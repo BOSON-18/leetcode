@@ -1,28 +1,41 @@
 class Solution {
 public:
     int trap(vector<int>& height) {
+
         int n = height.size();
-        vector<int> left(n, 0), right(n, 0);
-        int maxi = height[0];
-        for (int i = 1; i < n; i++) {
-            left[i] = maxi;
-            maxi = max(maxi, height[i]);
-        }
-        maxi = height[n - 1];
-        for (int i = n - 2; i >= 0; i--) {
-            right[i] = maxi;
-            maxi = max(maxi, height[i]);
-        }
-        int ans = 0;
-        for (int i = 1; i < n - 1; i++) {
-            int mini = min(left[i], right[i]);
 
-            if (mini <= height[i])
-                continue;
+        if (n == 0)
+            return 0;
 
-            ans += (mini - height[i]);
+        vector<int> rightMax(n, 0), leftMax(n, 0);
+        stack<int> st;
+
+        for (int i = 0; i < n; i++) {
+            while (!st.empty() && st.top() <= height[i])
+                st.pop();
+            leftMax[i] = st.empty() ? height[i] : st.top();
+            if (st.empty())
+                st.push(height[i]);
         }
 
-        return ans;
+        while (!st.empty())
+            st.pop();
+
+        for (int i = n - 1; i >= 0; i--) {
+            while (!st.empty() && st.top() <= height[i])
+                st.pop();
+            rightMax[i] = st.empty() ? height[i] : st.top();
+
+            if (st.empty())
+                st.push(height[i]);
+        }
+
+        long long ans = 0;
+
+        for(int i=0;i<n;i++){
+            ans+= min(leftMax[i],rightMax[i])-height[i];
+        }
+
+        return (int) ans;
     }
 };
